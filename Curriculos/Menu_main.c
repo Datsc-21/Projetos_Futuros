@@ -1,12 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "prototipo_cliente.h"
 
 int main(){
 int opcao;
 
 do{  
 
-printf("================================================= \n");
+printf("=================================================\n");
 printf("|                                               |\n");
 printf("|              BEM VINDO A CRIACAO              |\n");
 printf("|                      DE                       |\n");
@@ -16,12 +17,13 @@ printf("|            1 - ENTRAR NO SISTEMA              |\n");
 printf("|            0 - SAIR DO SISTEMA                |\n");
 printf("|                                               |\n");
 printf("|                                               |\n");
-printf("================================================= \n");
+printf("=================================================\n");
 scanf("%d", &opcao);
 
 switch(opcao)
 {
 case 1:
+menu_II();
     break;
 case 0:
     break;
